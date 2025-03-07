@@ -14,7 +14,7 @@ app.use(cors({
 }));
 
 app.get("/",(req,res)=>{
-    res.status(200).send("welcome to our API(PASSWORD-RESET)")
+    res.status(200).send("welcome to our backen API")
 })
 
 app.use(express.json())
